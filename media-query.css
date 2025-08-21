@@ -1,0 +1,178 @@
+/* ----- element section ------------- */
+@media (max-width: 360px) {
+  html {
+    font-size: 35%; /* around 7px base */
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+/* -------- component section ------- */
+
+/* year header sticky postion */
+@media (max-width: 730px) {
+  .year-header {
+    position: sticky;
+    top: 8rem;
+  }
+}
+
+@media (max-width: 694px) {
+  .year-header {
+    position: sticky;
+    top: 7rem;
+  }
+}
+
+@media (max-width: 641px) {
+  .year-header {
+    position: sticky;
+    top: 12rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .year-header {
+    position: sticky;
+    top: 8rem;
+  }
+}
+
+@media (max-width: 563px) {
+  .year-header {
+    position: sticky;
+    top: 10rem;
+  }
+}
+
+@media (max-width: 562px) {
+  .year-header {
+    position: sticky;
+    top: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .year-header {
+    position: sticky;
+    top: 13rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .year-header {
+    position: sticky;
+    top: 11rem;
+  }
+}
+
+/* ---------------------- Hero Section----------------------- */
+
+/* small laptop */
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%; /* 8px base */
+  }
+
+  .hero-section {
+    column-gap: 5rem;
+  }
+
+  .hero-profile-image {
+    max-width: 40rem;
+    height: auto;
+  }
+}
+
+/* tablet portrait */
+@media (max-width: 975px) {
+  html {
+    font-size: 40%; /* around 7px base */
+  }
+}
+
+/* small tablet portrait and foldable phone */
+@media (max-width: 695px) {
+  html {
+    font-size: 35%; /* around 7px base */
+  }
+}
+
+/* large mobile phone */
+@media (max-width: 630px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-profile-image {
+    align-self: end;
+    justify-self: center;
+  }
+
+  .hero-intro {
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .hero-btn-container {
+    justify-self: center;
+    margin-top: -5rem;
+  }
+}
+
+/*---------------- Portfolio Section --------------------------- */
+@media (max-width: 446px) {
+  .portfolio-card {
+    min-height: 60rem;
+  }
+}
+
+/* ------------------------ Resume Section --------------------- */
+
+@media (max-width: 735px) {
+  /* go back original layout template col 1fr */
+  .img-swap-text {
+    grid-column: 1;
+    grid-row: 1/4;
+  }
+  .resume-post-container {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-post-header {
+    grid-row: 1; /* top */
+  }
+
+  .resume-tags {
+    grid-row: 2;
+  }
+
+  .resume-img-container {
+    grid-row: 3;
+  }
+
+  .resume-letter-container {
+    grid-row: 4;
+  }
+}
+
+@media (max-width: 370px) {
+  html {
+    font-size: 35%; /* around 7px */
+  }
+
+  .resume-img-container img {
+    max-width: 45rem;
+  }
+}
+
+/* -------------- footer section --------------- */
+
+/* @media (max-wdith: 648px) {
+  .contact-section {
+    min-height: 60rem;
+  }
+} */
