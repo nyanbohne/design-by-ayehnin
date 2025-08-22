@@ -7,8 +7,8 @@
   justify-content: center;
   padding: auto;
 
-  min-width: 6rem;
-  min-height: 6rem;
+  min-width: 4rem;
+  min-height: 4rem;
   border-radius: 20%;
   background: radial-gradient(
     62.5% 62.5% at 50% 43.75%,
@@ -18,33 +18,34 @@
 }
 
 .navigate-top-wrap {
-  right: 5rem;
-  bottom: 15rem;
+  right: 4rem;
+  bottom: 10rem;
 }
 
 .navigate-project-list-wrap {
-  right: 5rem;
-  bottom: 7rem;
+  right: 4rem;
+  bottom: 5rem;
 }
 
 .navigation-wrap .header-icon {
-  width: 4rem;
+  width: 2.8rem;
   text-shadow: var(--project-card-text-shadow);
 }
 
 /* ------------- header section ------------------- */
-.resume-header-container {
-  width: 90%;
+.project-header-container {
+  width: 100%;
   margin: 0 auto;
   position: sticky;
   top: 0;
+  padding: 1rem 6%;
 }
 
 /*----------       details section ----------------------------------- */
 .resume-section {
-  min-height: 100vh;
+  height: auto;
   width: 90%;
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 0 auto;
   position: relative;
   /* overflow: hidden; */
@@ -60,7 +61,8 @@
   /* min-height: max-content; */
 }
 
-.resume-tags li {
+.resume-tags li,
+.resume-tags li a {
   min-width: max-content;
   display: flex;
   align-items: center;
@@ -123,8 +125,9 @@
 /* -------------- project galllary section ------------- */
 .project-gallary-section {
   width: 80%;
-  height: 100vh;
-  min-height: max-content;
+  max-width: 120rem;
+  height: auto;
+  /* min-height: max-content; */
   padding: 2rem auto;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -136,18 +139,9 @@
   color: var(--brand-color-base);
 }
 
-.portfolio-section {
-  /* height: 100vh; */
-  width: 90%;
-  max-width: 140rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
 .portfolio-card {
   min-height: 40rem;
-  min-width: 35rem;
+  min-width: 30rem;
   flex: 1 0 0;
 
   background: linear-gradient(

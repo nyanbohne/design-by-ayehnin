@@ -1,69 +1,39 @@
 /* ----- element section ------------- */
-@media (max-width: 360px) {
+@media (max-width: 340px) {
   html {
-    font-size: 35%; /* around 7px base */
+    font-size: 70%; /* around 7px base */
   }
   h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
 /* -------- component section ------- */
 
 /* year header sticky postion */
-@media (max-width: 730px) {
-  .year-header {
-    position: sticky;
-    top: 8rem;
-  }
-}
 
-@media (max-width: 694px) {
-  .year-header {
-    position: sticky;
-    top: 7rem;
-  }
-}
-
-@media (max-width: 641px) {
-  .year-header {
-    position: sticky;
-    top: 12rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .year-header {
-    position: sticky;
-    top: 8rem;
-  }
-}
-
-@media (max-width: 563px) {
+@media (max-width: 549px) {
   .year-header {
     position: sticky;
     top: 10rem;
   }
 }
 
-@media (max-width: 562px) {
-  .year-header {
-    position: sticky;
-    top: 8rem;
+/* nav menu position */
+@media (max-width: 426px) {
+  .navigation-wrap {
+    right: 2rem;
+    bottom: 5rem;
   }
-}
 
-@media (max-width: 480px) {
-  .year-header {
-    position: sticky;
-    top: 13rem;
+  .navigate-top-wrap {
+    right: 3rem;
+    bottom: 10rem;
   }
-}
 
-@media (max-width: 360px) {
-  .year-header {
-    position: sticky;
-    top: 11rem;
+  .navigate-project-list-wrap {
+    right: 3rem;
+    bottom: 5rem;
   }
 }
 
@@ -72,7 +42,8 @@
 /* small laptop */
 @media (max-width: 1200px) {
   html {
-    font-size: 50%; /* 8px base */
+    /* font-size: 50%;  */
+    font-size: 60%;
   }
 
   .hero-section {
@@ -88,19 +59,12 @@
 /* tablet portrait */
 @media (max-width: 975px) {
   html {
-    font-size: 40%; /* around 7px base */
-  }
-}
-
-/* small tablet portrait and foldable phone */
-@media (max-width: 695px) {
-  html {
-    font-size: 35%; /* around 7px base */
+    font-size: 50%; /* around 8px base */
   }
 }
 
 /* large mobile phone */
-@media (max-width: 630px) {
+@media (max-width: 638px) {
   .hero-section {
     grid-template-columns: 1fr;
   }
@@ -119,7 +83,8 @@
 
   .hero-btn-container {
     justify-self: center;
-    margin-top: -5rem;
+    justify-content: center;
+    margin: 0;
   }
 }
 
@@ -132,7 +97,7 @@
 
 /* ------------------------ Resume Section --------------------- */
 
-@media (max-width: 735px) {
+@media (max-width: 740px) {
   /* go back original layout template col 1fr */
   .img-swap-text {
     grid-column: 1;
@@ -157,18 +122,104 @@
   .resume-letter-container {
     grid-row: 4;
   }
+  .post-letter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 930px) {
+  .resume-post-container {
+    column-gap: 2rem;
+  }
+
+  .resume-img-container img {
+    max-width: 50rem;
+    align-content: center;
+  }
+}
+
+@media (max-width: 867px) {
+  .resume-post-container {
+    column-gap: 2rem;
+  }
+
+  .resume-img-container img {
+    max-width: 46rem;
+    align-content: center;
+  }
+}
+
+@media (max-width: 830px) {
+  .resume-img-container img {
+    max-width: 42rem;
+    align-content: center;
+  }
+}
+
+@media (max-width: 794px) {
+  .resume-img-container img {
+    max-width: 36rem;
+    align-content: center;
+  }
+}
+
+@media (max-width: 530px) {
   html {
-    font-size: 35%; /* around 7px */
+    font-size: 50%; /* around 7px */
   }
 
   .resume-img-container img {
     max-width: 45rem;
+    align-content: center;
   }
 }
 
+@media (max-width: 430px) {
+  .resume-img-container img {
+    max-width: 44rem;
+  }
+
+  .resume-img-container {
+    padding-left: 0.5rem padding-right 0.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .resume-img-container img {
+    max-width: 40rem;
+  }
+
+  .resume-img-container {
+    padding-left: 1rem padding-right 1rem;
+  }
+}
+
+@media (max-width: 396px) {
+  .resume-img-container img {
+    max-width: 38rem;
+  }
+
+  .resume-post-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .resume-img-container img {
+    max-width: 32rem;
+  }
+
+  .resume-post-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
 /* -------------- footer section --------------- */
 
 /* @media (max-wdith: 648px) {

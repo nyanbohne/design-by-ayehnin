@@ -1,7 +1,7 @@
 /* navigation section */
 .navigation-wrap {
   position: fixed;
-  right: 5rem;
+  right: 4rem;
   bottom: 5rem;
   z-index: 9999;
 
@@ -10,8 +10,8 @@
   justify-content: center;
   padding: auto;
 
-  min-width: 6rem;
-  min-height: 6rem;
+  min-width: 4rem;
+  min-height: 4rem;
   border-radius: 20%;
   background: radial-gradient(
     62.5% 62.5% at 50% 43.75%,
@@ -21,7 +21,7 @@
 }
 
 .navigation-wrap .header-icon {
-  width: 4rem;
+  width: 2.8rem;
   text-shadow: var(--project-card-text-shadow);
 }
 
@@ -98,7 +98,7 @@
   grid-row-start: 1;
   grid-row-end: 3;
   justify-self: end;
-  width: 100%;
+  width: 68%;
   max-width: 483px;
   position: relative;
 }
@@ -114,23 +114,23 @@
 .hero-btn-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-items: center;
+  justify-content: center;
+  max-width: 38rem;
+  gap: 1rem;
   align-self: start;
   justify-self: start;
+  flex-wrap: wrap;
+  margin-left: -1rem;
 }
 
 .hero-to-contact {
-  display: flex;
-  width: max-content;
-  justify-self: center;
-
+  display: inline-block;
   color: var(--primary-color-base);
   text-decoration: underline;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   text-shadow: var(--project-card-text-shadow);
-
-  position: absolute;
-  bottom: 2rem;
+  padding: 1rem;
 }
 
 /* ------------ portfolio section --------------- */
@@ -174,8 +174,9 @@
 
 .portfolio-card {
   display: flex;
-  min-height: 40rem;
-  min-width: 35rem;
+  min-height: 35rem;
+  max-height: 40rem;
+  min-width: 30rem;
   padding-top: 1.8rem;
   flex-direction: column;
   justify-content: space-between;
@@ -209,14 +210,14 @@
 }
 
 .portfolio-card-container {
-  display: flex;
+  max-width: 90%;
   height: auto;
   padding: 0 0 1.6rem 0;
-  justify-content: center;
+
+  display: flex;
   align-items: flex-start;
-  align-content: flex-start;
   gap: 1.6rem;
-  align-self: stretch;
+  align-self: center;
   flex-wrap: wrap;
 }
 
@@ -257,12 +258,12 @@
   width: 100%;
   color: var(--brand-color-base);
   justify-content: center;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0 1rem 0;
   gap: 1rem;
   font-weight: var(--font-weight-semi-bold);
   background-color: var(--primary-color-base);
   position: sticky;
-  top: 7rem;
+  top: 6rem;
 }
 
 .resume-tags {
@@ -316,7 +317,7 @@
   display: block;
   width: auto;
   height: auto;
-  max-width: 55rem;
+  max-width: 48rem;
   /* width: 100%; */
 }
 
@@ -342,7 +343,7 @@
   width: 90%;
   margin: 0 auto;
   height: auto;
-  padding: 15rem;
+  padding: 9rem 3rem;
 }
 
 .contact-section-header {
@@ -361,12 +362,13 @@
 
 .contact-list-container li a {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   min-width: max-content;
+  align-items: center;
 
   color: var(--brand-color-base);
   background-color: var(--secondary-color-lighter);
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1rem;
   border: 0.5rem #ededed;
   border-radius: 1rem;
 }
@@ -377,5 +379,5 @@
 }
 
 .contact-list-container h5 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }

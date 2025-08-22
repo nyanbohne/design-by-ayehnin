@@ -14,14 +14,15 @@ html {
 
 :root {
   /* Type Scale */
+
   --text-sm: 1.2rem; /* 12px */
-  --text-base: 1.6rem; /* 16px */
-  --text-paragraph: 2rem; /* 20px */
-  --text-h5: 3rem; /* 30px / 24px */
-  --text-h4: 3.2rem; /* 32px */
-  --text-h3: 4rem; /* 40px */
-  --text-h2: 4.8rem; /* 48px */
-  --text-h1: 6.2rem; /* 62px */
+  --text-base: 1.2rem; /* 16px */
+  --text-paragraph: 1.4rem; /* 20px */
+  --text-h5: 2rem; /* 30px / 24px */
+  --text-h4: 2.4rem; /* 32px */
+  --text-h3: 3rem; /* 40px */
+  --text-h2: 3.2rem; /* 48px */
+  --text-h1: 4.8rem; /* 62px */
 
   /* Font Weight */
   --font-weight-regular: 500; /* paragraph */
@@ -30,7 +31,7 @@ html {
 
   /* Line Height */
   --line-height-header: 1.2; /* Tight shouldn't be >1.5 */
-  --line-height-paragraph: 1.5; /* Normal should be more than <1.5 */
+  --line-height-paragraph: 2; /* Normal should be more than <1.5 */
 
   /* Letter Spacing */
   --letter-spacing-tight: -2px; /* Tight */
@@ -88,7 +89,7 @@ h5 {
 p {
   font-size: var(--text-paragraph);
   font-weight: var(--font-weight-regular);
-  line-height: 3.388rem;
+  line-height: var(--line-height-paragraph); /* 3.388rem */
   letter-spacing: 0.04rem;
 }
 
@@ -156,7 +157,7 @@ a:active {
 
 .btn-secondary:link,
 .btn-secondary:visited {
-  border: 2px solid var(--brand-color-base, #1b3040);
+  border: 1px solid var(--brand-color-base, #1b3040);
   background: var(--brand-color-base, #1b3040);
   color: var(--primary-color-base);
 
@@ -173,7 +174,7 @@ a:active {
 
 .btn-secondary-outline:link,
 .btn-secondary-outline:visited {
-  border: 2px solid var(--brand-color-base, #1b3040);
+  border: 1px solid var(--brand-color-base, #1b3040);
   background: var(--primary-color-base, #ffffff);
   color: var(--brand-color-base);
 }
@@ -209,7 +210,7 @@ a:active {
 footer {
   display: flex;
   flex-direction: column;
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
   gap: 5rem;
   align-items: center;
 }
